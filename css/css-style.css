@@ -1,0 +1,17 @@
+
+.image {
+  width: 200px;
+  float:left;
+}
+
+.column{
+  width: 300px;
+  float: left;
+}
+
+.intro{
+  color: red;
+}
+ div .intro{
+   color: blue;
+ }

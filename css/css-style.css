@@ -1,12 +1,12 @@
 
 .image {
   width: 200px;
-  float:left;
+  /* float:left; */
 }
 
 .column{
   width: 300px;
-  float: left;
+  /* float: left; */
 }
 
 .intro{
@@ -14,4 +14,25 @@
 }
  div .intro{
    color: blue;
+   font-weight: bold;
+ }
+
+
+ @media screen and (max-width: 480px) and (min-width: 300px) {
+    body{background-color: yellow;}
+     .image {
+       width: 50px;
+     }
+ }
+
+ @media screen and (max-width: 1000px) and (min-width: 768px) {
+      body{background-color: red;}
+     .image {
+       width: 100px;
+     }
+
+     .column{
+       width: 200px;
+       float: left;
+     }
  }
